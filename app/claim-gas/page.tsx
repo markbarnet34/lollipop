@@ -57,8 +57,7 @@ const playgrounds: CardProps[] = [
   {
     href: "/claim-gas/checker",
     title: "View Unclaimed Gas",
-    description:
-      "Explore your transaction history and discover unclaimed gas fees. GasRefundX keeps track of every transaction—claim your refunds now",
+    description: `Explore your transaction history and discover unclaimed gas fees. ${siteConfig.name} keeps track of every transaction—claim your refunds now`,
     icon: Gauge,
     variant: "primary",
   },

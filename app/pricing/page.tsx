@@ -32,10 +32,10 @@ export default function PricingPage() {
           <div className="grid gap-3 text-center">
             <h1 className="font-heading text-4xl text-foreground">Pricing</h1>
             <p className="text-muted-foreground">
-              At GasRefundX, we believe in simplicity and fairness. That{"'"}s why
-              our entire platform is completely free for users. No hidden fees,
-              no subscriptions—just connect your wallet and start claiming your
-              excess gas fees. It{"'"}s that easy!
+              At {siteConfig.name}, we believe in simplicity and fairness. That
+              {"'"}s why our entire platform is completely free for users. No
+              hidden fees, no subscriptions—just connect your wallet and start
+              claiming your excess gas fees. It{"'"}s that easy!
             </p>
           </div>
         </Shell>

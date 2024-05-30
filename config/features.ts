@@ -1,4 +1,5 @@
 import type { ValidIcon } from "@/components/common/icons";
+import { siteConfig } from "./site";
 
 export type Feature = {
   icon: ValidIcon;
@@ -42,15 +43,13 @@ export const cardConfig = {
       {
         icon: "play",
         catchline: "User-Friendly Interface.",
-        description:
-          "Navigate GasRefundX effortlessly with our intuitive interface. Claim refunds hassle-free!",
+        description: `Navigate ${siteConfig.name} effortlessly with our intuitive interface. Claim refunds hassle-free!`,
       },
       {
         icon: "bot",
         catchline: "Smart Monitoring.",
         badge: "Coming soon",
-        description:
-          "GasRefundX intelligently monitors your transactions, detecting excessive gas fees automatically.",
+        description: `${siteConfig.name} intelligently monitors your transactions, detecting excessive gas fees automatically.`,
       },
     ],
   },
@@ -85,8 +84,7 @@ export const cardConfig = {
       {
         icon: "sparkles",
         catchline: "AutoRefund.",
-        description:
-          "Streamline gas fee refunds with automated processing. No manual intervention required—GasRefundX handles it all.",
+        description: `Streamline gas fee refunds with automated processing. No manual intervention required—${siteConfig.name} handles it all.`,
         badge: "Coming soon",
       },
       {
@@ -99,8 +97,7 @@ export const cardConfig = {
       {
         icon: "bell",
         catchline: "TokenSwap.",
-        description:
-          "Seamlessly convert refunded gas fees into your preferred tokens. Swap with ease using GasRefundX.",
+        description: `Seamlessly convert refunded gas fees into your preferred tokens. Swap with ease using ${siteConfig.name}.`,
       },
     ],
   },

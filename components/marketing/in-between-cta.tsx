@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Button } from "../ui/button";
+import { siteConfig } from "@/config/site";
 
 interface InBetweenCTAProps {
   description: string;
@@ -36,7 +37,7 @@ export function InBetweenCTA({ description, actions }: InBetweenCTAProps) {
 export function MiddleCTA() {
   return (
     <InBetweenCTA
-      description="GasRefundX harnesses the cutting-edge DeCun upgrade to revolutionize gas fee management. Say goodbye to wasted tokens—view your refundable gas fees now!"
+      description={`${siteConfig.name} harnesses the cutting-edge DeCun upgrade to revolutionize gas fee management. Say goodbye to wasted tokens—view your refundable gas fees now!`}
       actions={{
         primary: { label: "View Refundable Fees", href: "/claim-gas/checker" },
         secondary: { label: "Claim Refund", href: "/claim-gas/checker" },
@@ -48,7 +49,7 @@ export function MiddleCTA() {
 export function BottomCTA() {
   return (
     <InBetweenCTA
-      description="Unlock the power of GasRefundX and reclaim your tokens. Say goodbye to wasted gas fees—start saving today!"
+      description={`Unlock the power of ${siteConfig.name} and reclaim your tokens. Say goodbye to wasted gas fees—start saving today!`}
       actions={{
         primary: { label: "Get Started", href: "/claim-gas" },
         secondary: { label: "Claim Refunds", href: "/claim-gas" },

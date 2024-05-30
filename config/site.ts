@@ -1,9 +1,10 @@
 import { SiteConfig } from "@/types";
 
+const siteName = "GasRefundR";
+
 export const siteConfig: SiteConfig = {
-  name: "GasRefundX",
-  description:
-    "Recover overpaid gas fees with GasRefundX. Automate refunds on EVM-compatible blockchains. Save money, hassle-free!",
+  name: siteName,
+  description: `Recover overpaid gas fees with ${siteName}. Automate refunds on EVM-compatible blockchains. Save money, hassle-free!`,
   url: "https://tx.shadcn.com",
   ogImage: "https://tx.shadcn.com/og.jpg",
   links: {

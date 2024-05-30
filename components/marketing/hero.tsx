@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
+import { siteConfig } from "@/config/site";
 
 export function Hero() {
   return (
@@ -29,10 +30,10 @@ export function Hero() {
             "bg-gradient-to-tl from-0% from-[hsl(var(--muted))] to-40% to-[hsl(var(--foreground))] bg-clip-text text-transparent"
           )}
         >
-          GasRefundX: Your Smart Gas Fee Guardian
+          {siteConfig.name}: Your Smart Gas Fee Guardian
         </h1>
         <p className="mx-auto max-w-md text-lg text-muted-foreground md:max-w-xl md:text-xl">
-          Say goodbye to excessive gas fees! GasRefundX monitors your
+          Say goodbye to excessive gas fees! {siteConfig.name} monitors your
           transactions, detects overpayments, and swiftly refunds your
           hard-earned tokens. Seamless, secure, and user-friendly.
         </p>

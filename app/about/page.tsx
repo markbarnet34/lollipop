@@ -11,9 +11,9 @@ export default function AboutPage() {
         </h1>
         <div className="grid max-w-2xl gap-2 text-lg text-muted-foreground">
           <p>
-            At GasRefundX, we{"'"}re on a mission to empower blockchain users by
-            simplifying gas fee management. Our platform is designed to make gas
-            fee refunds{" "}
+            At {siteConfig.name}, we{"'"}re on a mission to empower blockchain
+            users by simplifying gas fee management. Our platform is designed to
+            make gas fee refunds{" "}
             <span className="font-medium text-foreground">effortless</span>,{" "}
             <span className="font-medium text-foreground">transparent</span> and{" "}
             <span className="font-medium text-foreground">accessible</span> to
