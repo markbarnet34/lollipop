@@ -1,7 +1,7 @@
 import { env } from "@/env.mjs";
 import { SiteConfig } from "@/types";
 
-const siteName = "GasRefundR";
+const siteName = "GasRefundX";
 
 export const siteConfig: SiteConfig = {
   name: siteName,
